@@ -9,7 +9,7 @@ function App() {
   const [todos, setTodos] = useState([])
   const [search, setSearch] = useState("")
 
-  const API = "http://localhost:5000/api/todos";
+  const API = "https://todo-app-1-aa9j.onrender.com/api/todos";
 
   const addTodo = async (todo) => {
     if (!todo || !todo.trim()) return;
